@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hdiv{
+            display:flex;
+            flex-direction: row;
+        }
+        .cdiv{
+            display:flex;
+            flex-direction:column;
+        }
+        .wdiv{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .a.div{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .five{
+            display: flex;
+            justify-content: space-between;
+        }
+        .six{
+            display:flex;
+            align-items:flex-end;
+            height:200px;
+
+        }
+        .seven{
+        }
+    </style>
+</head>
+<body>
+    <div class="hdiv">
+        <div style="background-color: blue;">A</div>
+        <div style="background-color: aqua;">B</div>
+        <div style="background-color: cadetblue;">C</div>
+    </div><br><br>
+        <div class="cdiv">
+        <div style="background-color: blue;">D</div>
+        <div style="background-color: aqua;">E</div>
+        <div style="background-color: cadetblue;">F</div>
+        <div style="background-color:chartreuse">g</div>
+    </div><br><br>
+
+    <div class="wdiv">
+        <div style="background-color: blue;">D</div>
+        <div style="background-color: aqua;">E</div>
+        <div style="background-color: cadetblue;">F</div>
+        <div style="background-color:chartreuse">g</div>
+        <div style="background-color: blue;">A</div>
+        <div style="background-color: aqua;">B</div>
+        <div style="background-color: cadetblue;">C</div>
+    </div><br><br>
+
+    <div class="a.div">
+        <div style="background-color: blue;">A</div>
+        <div style="background-color: aqua;">B</div>
+        <div style="background-color: cadetblue;">C</div>
+    </div><br><br>
+    <div class="five">
+        <div style="background-color: blue;">A</div>
+        <div style="background-color: aqua;">B</div>
+        <div style="background-color: cadetblue;">C</div>
+    </div><br><br>
+    <div class="six">
+        <div style="background-color: blue; width: 40px;height: 20px;">A</div>
+        <div style="background-color: aqua; width: 20px;height: 20px;">B</div>
+        <div style="background-color: cadetblue; width: 50px;height: 30px;">C</div>
+    </div><br><br>
+    <div class="seven">
+        <button style="background-color: blue;visibility: hidden;">click me</button>
+    </div>
+
+    <div class="eight">
+        <div style="background-color: bisque;display: inline;"> welcome back</div>
+    </div>
+
+    <div class="nine">
+        <span style="background-color: blue; display: block;">A</span>
+        <span style="background-color: aqua; display: block;">B</span>
+    </div>
+</body>
+</html>
